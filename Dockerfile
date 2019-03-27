@@ -54,4 +54,4 @@ RUN git clone https://github.com/swoole/swoole-src.git && \
 RUN echo extension=swoole.so >> /usr/local/lib/php.ini
 
 CMD cd /var/www/html && \
-    php artisan -S 0.0.0.0:8080
+    php -S 0.0.0.0:8080
